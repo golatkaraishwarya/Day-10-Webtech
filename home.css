@@ -1,0 +1,326 @@
+.main-cnt{
+    height: 550px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 40px;
+    margin: auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cnt-1{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid red; */
+    /* background-color: rgb(25, 152, 25); */
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    display: flex;
+    color: black;
+    font-size: 15px;
+}
+
+.time{
+    margin: 7px 0 0 15px;
+    font-size: 12px;
+}
+
+.logo{
+    margin: 7px 0 0 10px;
+    color: black;
+    font-size: 12px;  
+}
+
+.network{
+    margin: 7px 0 0 130px;
+    font-size: 12px;
+}
+
+.wifi{
+    margin: 7px 0 0 10px;
+    font-size: 12px;
+}
+
+.battery{
+    margin: 7px 0 0 10px;
+    
+}
+
+.cnt-2{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid red; */
+    /* background-color: rgba(106, 167, 159, 0.242); */
+    display: flex;
+    color: black;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+.appname{
+    font-size: 18px;
+    font-weight: bold;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: rgb(44, 195, 76);
+    margin: 20px 0 0 7px;
+}
+
+.camera{
+    margin: 24px 0 0 120px;
+    font-size: 12px;
+    color: black;
+}
+
+.search{
+    margin: 24px 0 0 20px;
+    font-size: 12px;
+    color: black;
+}
+    
+.dots{
+    margin: 24px 0 0 20px;
+    font-size: 12px;
+    color: black;
+}
+
+.task{
+    height: 40px;
+    width: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(201, 197, 197) ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.chat{
+    margin: 20px 0 0 7px;
+    color: green;
+    text-decoration: underline;
+}
+
+.chatlink{
+    margin: 20px 0 0 7px;
+    color: green;
+    text-decoration: underline;
+}
+
+.status{
+    margin: 20px 0 0 35px;
+    color: black;
+}
+
+.calls{
+    margin: 20px 0 0 40px;
+    color: black;
+}
+
+.chats{
+    height: 430px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* border: 1px solid; */
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+}
+
+.chat-cnt{
+    height: 60px;
+    width: 100%;
+    /* background-color: #ede6e6; */
+    /* border: 1px solid ; */
+    display: flex;
+}
+
+
+
+.mainchat{
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid; */
+    line-height: 5px;
+    margin: 0 0 0 15px;
+}
+
+.name{
+    margin: -2px 0 -2px 0;
+}
+
+.chattext{
+    font-size: 12px;
+    color: gray;
+}
+
+.chattime{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid; */
+    line-height: 20px;
+    margin: 0 0 0 15px;
+}
+
+.ctime1{
+    font-size: 10px;
+    color: green;
+    margin: 12px 0 -2px 5px;
+    font-weight: bold;
+    /* background-color: pink; */
+}
+
+.ctime2{
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+    margin: 12px 0 -2px 5px;
+}
+
+.ctime3{
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+    margin: 12px 0 -2px 5px;
+}
+
+.ctime4{
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+    margin: 12px 0 -2px 5px;
+}
+
+.ctime5{
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+    margin: 12px 0 -2px 5px;
+}
+
+.ctime6{
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+    margin: 12px 0 -2px 5px;
+}
+
+.ctime7{
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+    margin: 12px 0 -2px 5px;
+}
+
+.unread{
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    background-color: green;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    margin: -10px 0 0 15px;
+}
+.profilephoto1{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    background-image: url(pepper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 4px 0 0 7px;
+}
+
+.profilephoto2{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    background-image: url(captain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 4px 0 0 7px;
+}
+
+.profilephoto3{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    background-image: url(thor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 4px 0 0 7px;
+}
+
+
+.profilephoto4{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    background-image: url(hulk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 4px 0 0 7px;
+}
+
+.profilephoto5{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    background-image: url(hawkeye.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 4px 0 0 7px;
+}
+
+.profilephoto6{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    background-image: url(black\ widow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 4px 0 0 7px;
+}
+
+.profilephoto7{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    background-image: url(happy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 4px 0 0 7px;
+}
+
+
+.lastchat-cnt{
+    height: 60px;
+    width: 100%;
+    /* background-color: #ede6e6; */
+    /* border: 1px solid ; */
+    display: flex;
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+}
+
+
+.chattimelast{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid; */
+    line-height: 20px;
+    margin: 0 0 0 15px;
+    border-bottom-right-radius: 30px;
+}
+
